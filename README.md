@@ -81,11 +81,6 @@ Perangkat yang dipakai: Motion Detector ×3, Webcam ×3, Trip Sensor, Siren, RFI
 - SSID per area: `arfa` (laptop), `arfa1` (lampu lalu lintas), `arfa2` (lampu jalan), `arfa3`.
 - Switch0 ke Router0 dan Switch1 menggunakan port trunk.
 
-## Catatan
-
-1. Konfigurasi Router0 belum terisi (interface `Gi0/0/0` belum punya IP), padahal gateway MCU diarahkan ke `192.168.1.1`.
-2. Akun IoT Server masih memakai kredensial default. Ganti jika dipakai di luar lab.
-3. Ambang batas sensor pada program MCU dan IoE rules bisa disesuaikan sesuai kebutuhan simulasi.
 
 ## Cara Menggunakan
 
